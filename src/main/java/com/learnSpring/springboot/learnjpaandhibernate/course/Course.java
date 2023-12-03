@@ -1,5 +1,6 @@
 package com.learnSpring.springboot.learnjpaandhibernate.course;
 
+
 public class Course {
     private Long id;
     private String name;
@@ -23,6 +24,18 @@ public class Course {
 
     public String getAuthor() {
         return author;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     @Override
